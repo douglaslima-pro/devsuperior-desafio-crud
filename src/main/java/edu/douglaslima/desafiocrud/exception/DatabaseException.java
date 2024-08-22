@@ -1,10 +1,6 @@
 package edu.douglaslima.desafiocrud.exception;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ResponseStatus;
-
 @SuppressWarnings("serial")
-@ResponseStatus(code = HttpStatus.BAD_REQUEST, reason = "Erro no banco de dados")
 public class DatabaseException extends RuntimeException {
 
 	public DatabaseException() {
