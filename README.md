@@ -162,7 +162,7 @@ Método: POST
 URI: /clients
 Corpo:
 {
-	"name": "Douglas Lima",
+    "name": "Douglas Lima",
     "cpf": "012.345.678-90",
     "income": 1558.0,
     "birthDate": "2003-01-11",
@@ -194,7 +194,7 @@ Método: PUT
 URI: /clients
 Corpo:
 {
-	"name": "Douglas",
+    "name": "Douglas",
     "cpf": "012.345.678-90",
     "income": 2000.0,
     "birthDate": "2003-01-11",
