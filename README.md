@@ -183,7 +183,7 @@ Corpo:
 }
 ```
 
-### PUT - /clients
+### PUT - /clients/{id}
 
 Atualiza um cliente pelo ID.
 
@@ -191,7 +191,7 @@ Atualiza um cliente pelo ID.
 
 ```
 Método: PUT
-URI: /clients
+URI: /clients/11
 Corpo:
 {
     "name": "Douglas",
